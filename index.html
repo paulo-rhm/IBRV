@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBRV - Igreja Batista Rio de Vida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+
+</head>
+<body>
+
+  <!-- Header -->
+<header class="header">
+  <div class="container">
+    <img src="img/logo2.png" alt="Logo IBRV" class="logo">
+    
+    <!-- Botão hambúrguer -->
+    <button class="hamburger" id="hamburger-btn" aria-label="Abrir menu">
+      ☰
+    </button>
+
+    <!-- Navegação -->
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#ministerios">Ministérios</a>
+      <a href="#sermoes">Sermões</a>
+      <a href="#eventos">Eventos</a>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Home -->
+  <section id="home" class="section home">
+    <div class="carousel-container">
+      <div class="carousel">
+        <img src="img/slide1.jpg" class="slide active" />
+        <img src="img/slide2.jpeg" class="slide" />
+        <img src="img/slide3.jpg" class="slide" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+   
+  <section id="sobre" class="section sobre">
+    <h2>Sobre</h2>
+    <div class="sobre-topicos">
+      <div>
+        <h3>Ajuda</h3>
+        <p>Oferecemos apoio espiritual e social a quem precisa.</p>
+      </div>
+      <div>
+        <h3>Contatar</h3>
+        <p>Fale conosco para oração, aconselhamento ou informações.</p>
+      </div>
+      <div>
+        <h3>Membros</h3>
+        <p>Seja parte ativa da nossa comunidade de fé.</p>
+      </div>
+    </div>
+
+    <div class="sobre-conteudo">
+      <div class="box-destaque">
+        <h3>O Amor de Deus</h3>
+        <p>Crenças e História</p>
+        <p>A IBRV foi fundada com a missão de levar o Evangelho de forma relevante, impactando gerações e comunidades com o amor de Cristo.</p>
+      </div>
+      <img src="img/sobre.jpg" alt="Sobre a igreja" class="imagem-sobre">
+      <div class="horarios" id="horarios-container">
+        <!-- Horários do JSON serão inseridos aqui -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Ministérios -->
+  <section id="ministerios" class="section ministerios">
+    <h2>Ministérios</h2>
+    <div class="card-container" id="ministerios-container">
+      <!-- Cards virão do JSON -->
+    </div>
+  </section>
+
+  <!-- Sermões -->
+  <section id="sermoes" class="section sermoes">
+    <h2>Sermões</h2>
+    <div class="sermoes-container" id="sermoes-container">
+      <!-- Sermões virão do JSON -->
+    </div>
+  </section>
+
+  <!-- Eventos -->
+  <section id="eventos" class="section eventos">
+    <h2>Eventos</h2>
+    <div class="eventos-container" id="eventos-container">
+      <!-- Eventos virão do JSON -->
+    </div>
+  </section>
+
+  <!-- Voltar ao topo -->
+  <button id="toTopBtn" title="Voltar ao topo">&#8679;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Rua da Esperança, 123 - Cidade Exemplo</p>
+    <p>Email: contato@ibrv.org.br</p>
+    <div class="social">
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </div>
+    <p>&copy; 2025 IBRV - Igreja Batista Rio de Vida. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

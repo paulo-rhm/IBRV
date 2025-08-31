@@ -1,0 +1,111 @@
+{
+  "horarios": [
+    { "dia": "Domingo", "horario": "10h - Culto de Celebração" },
+    { "dia": "Quarta-feira", "horario": "19h30 - Culto de Oração" },
+    { "dia": "Sábado", "horario": "18h - Encontro de Jovens" }
+  ],
+  "ministerios": [
+    {
+      "nome": "Infantil",
+      "descricao": "Cuidando e ensinando as crianças com amor e criatividade.",
+      "imagem": "ministerio1.jpg"
+    },
+    {
+      "nome": "Louvor",
+      "descricao": "Liderando a igreja em adoração com música.",
+      "imagem": "ministerio1.jpg"
+    },
+    {
+      "nome": "Jovens",
+      "descricao": "Movimento jovem focado em vida com propósito.",
+      "imagem": "ministerio1.jpg"
+    },
+    {
+      "nome": "Intercessão",
+      "descricao": "Equipe dedicada à oração constante.",
+      "imagem": "ministerio1.jpg"
+    },
+    {
+      "nome": "Ação Social",
+      "descricao": "Atendendo necessidades práticas da comunidade.",
+      "imagem": "ministerio1.jpg"
+    },
+    {
+      "nome": "Comunicação",
+      "descricao": "Compartilhando o evangelho pelas mídias.",
+      "imagem": "ministerio1.jpg"
+    }
+  ],
+
+  "sermoes": [
+  {
+    "titulo": "Restauração através da Fé",
+    "palestrante": "Pr. João Marcos",
+    "categorias": ["Fé", "Esperança"],
+    "data": "Domingo, 20 de janeiro de 2019",
+    "imagem": "sermao1.jpg",
+    "tipo": "youtube",
+    "youtubeId": "kFM6EBaM4_k"
+  },
+  {
+    "titulo": "Deus quer fazer algo novo em sua vida",
+    "palestrante": "Dr. Rolando Henderson",
+    "categorias": ["Deus", "Oração", "Fé"],
+    "data": "Domingo, 13 de janeiro de 2019",
+    "imagem": "sermao1.jpg",
+    "tipo": "audio",
+    "midia": "sermao1.mp3"
+  },
+  {
+    "titulo": "Restauração através da Fé",
+    "palestrante": "Pr. João Marcos",
+    "categorias": ["Fé", "Esperança"],
+    "data": "Domingo, 20 de janeiro de 2019",
+    "imagem": "sermao1.jpg",
+    "tipo": "video",
+    "midia": "sermao2.mp4"
+  },
+  {
+    "titulo": "Chamados para Servir",
+    "palestrante": "Pr. Ana Paula",
+    "categorias": ["Serviço", "Chamado"],
+    "data": "Domingo, 27 de janeiro de 2019",
+    "imagem": "sermao1.jpg",
+    "tipo": "audio",
+    "midia": "sermao3.mp3"
+  }
+],
+
+  "eventos": [
+    {
+      "titulo": "Dando Esperança às Nossas Necessidades Espirituais",
+      "dataHora": "Segunda-feira, 8h - Terça-feira, 20h",
+      "local": "Igreja Batista Rio de Vida, 203 Fake St. Mountain View, São Francisco, Califórnia, EUA",
+      "imagem": "evento1.jpg"
+    },
+    {
+      "titulo": "Conferência da Juventude",
+      "dataHora": "Sábado, 14h - Domingo, 21h",
+      "local": "Auditório Central, Cidade Exemplo",
+      "imagem": "evento1.jpg"
+    },
+    {
+      "titulo": "Treinamento de Líderes",
+      "dataHora": "Quinta-feira, 19h",
+      "local": "Sala de Reuniões, IBRV",
+      "imagem": "evento1.jpg"
+    },
+    {
+      "titulo": "Culto da Família",
+      "dataHora": "Domingo, 10h",
+      "local": "Templo Principal",
+      "imagem": "evento1.jpg"
+    },
+    {
+      "titulo": "Encontro de Casais",
+      "dataHora": "Sexta-feira, 19h",
+      "local": "Salão Social, IBRV",
+      "imagem": "evento1.jpg"
+    }
+  ]
+}
